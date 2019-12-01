@@ -1,0 +1,38 @@
+.tdPendiente{
+    color: #ff0000;
+    font-size: 14px;
+}
+
+.tdCerrado{
+    color:red;
+}
+
+.tdAbierto{
+    color:blue;
+}
+
+.tdInscripto{
+    color: green;
+}
+
+.customCaption{
+    color: #ff0000;
+    font-size: 12px;
+}
+
+.tdInscribirse:hover{
+    cursor: pointer;
+}
+/*
+table,
+thead,
+tr,
+tbody,
+th {
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+*/

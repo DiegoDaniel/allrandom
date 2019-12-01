@@ -1,0 +1,20 @@
+.footer-middle{
+    background: var(--mainDark);
+    padding-top: 3rem;
+    color: var(--mainWhite);
+}
+
+.footer-middle ul li a{
+    color:var(--mainGrey);
+}
+
+.footer-middle ul li a:hover{
+    color:var(--mainLightGrey);
+}
+
+.footer-bottom{
+    padding-top: 3rem;
+    padding-bottom:2rem;
+    font-size: 9px;
+}
+
