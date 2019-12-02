@@ -23,6 +23,31 @@
 .tdInscribirse:hover{
     cursor: pointer;
 }
+
+.section-wrapper-content{
+    background-image: url(../../img/table-background/frame-center.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+    background-size: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-wrapper-top{
+    position: relative;
+    background-image:url(../../img/table-background/frame-top.png);
+    background-position-x: 50%;
+    background-position-y: 0;
+    top:0;
+    left: 0;
+    height: 70px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /*
 table,
 thead,

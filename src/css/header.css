@@ -4,7 +4,7 @@
     min-height: 30vh;
 }*/
 .navbar-nav :hover{
-    color:grey!important;
+    color:orangered!important;
 }
 .header .navbar {
   /*background-color: transparent !important;*/
@@ -29,14 +29,50 @@ button:focus {
 .customFacebookButton {
   font-family: Lucida Grande, Helvetica Neue, Helvetica, Arial, sans-serif;
   display: inline-block;
-  font-size: 14px;
-  padding: 13px 30px 15px 44px;
-  background: #3A5A97;
+  font-size: 16px;
+  background: transparent;
   color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,20,.4);
-  text-decoration: none;
-  line-height: 1;
-  position: relative;
-  border-radius: 5px;
-  width: 230px;
+  border: none;
+  
+}
+
+.user {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.pointer{
+  cursor: pointer!important;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+  .fixed-top{
+    position: unset;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+  .fixed-top{
+    position: unset;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+  .fixed-top{
+    position: fixed;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  .fixed-top{
+    position: fixed;
+  }
 }
