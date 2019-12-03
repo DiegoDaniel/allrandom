@@ -39,7 +39,7 @@ class NavBar extends Component {
 
     getSummonerData_1(){
         document.getElementById("btnModalGetSummonerData").disabled = true;
-        console.log(process.env.REACT_APP_API_KEY);
+        
         
     }
 
