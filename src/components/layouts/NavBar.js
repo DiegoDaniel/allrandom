@@ -37,6 +37,12 @@ class NavBar extends Component {
         })
     }
 
+    getSummonerData_1(){
+        document.getElementById("btnModalGetSummonerData").disabled = true;
+        console.log(process.env.REACT_APP_API_KEY);
+        
+    }
+
     render(){
         let fbContent;
 
@@ -109,13 +115,12 @@ class NavBar extends Component {
                                 <br />
                                 <p>Ingresa tu Nick:</p>
                                 <div className=" modal-body row">
-                                    <input className="nickNameForm" type="text"></input> &nbsp; &nbsp;<button>Check</button>
+                                    <input className="nickNameForm" type="text"></input> &nbsp; &nbsp;<button id="btnModalGetSummonerData" className="btn" onClick={this.getSummonerData_1}>Check</button>
                                 </div>
 
                             </div>
                             <div className="modal-footer">
-                                <button className="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                                <button className="btn btn-primary">Save changes</button>
+                                <button id="btnModalAsociar" disabled className="btn btn-primary">Asociar</button>
                             </div>
                         </div>
                     </div>
