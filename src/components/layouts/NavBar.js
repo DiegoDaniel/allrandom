@@ -96,6 +96,30 @@ class NavBar extends Component {
                         </div>
                     </nav>
                 </div>
+                <button id="btnModalRelAcc" data-toggle="modal" data-target="#modalRelacionarAcc" style={{ display:'none'}} ></button>
+                <div id="modalRelacionarAcc" className="modal bd-example-modal-lg fade" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h3>Cuentas Asociadas</h3>
+                                <button type="button" className="close font-weight-light" data-dismiss="modal" aria-hidden="true">×</button>
+                            </div>
+                            <div className="modal-body">
+                                <p>Relacionaremos tu cuenta de <b>ALL RANDOM</b> con la de <b>LoL</b></p>
+                                <br />
+                                <p>Ingresa tu Nick:</p>
+                                <div className=" modal-body row">
+                                    <input className="nickNameForm" type="text"></input> &nbsp; &nbsp;<button>Check</button>
+                                </div>
+
+                            </div>
+                            <div className="modal-footer">
+                                <button className="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                                <button className="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

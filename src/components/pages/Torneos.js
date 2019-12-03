@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import '../../css/componentsCSS/torneos.css';
+//import imgBack from '../../img/table-background/backTorneo.png';
 
 class Torneos extends Component {
     
@@ -10,8 +11,8 @@ class Torneos extends Component {
     render() {
         return (
             <div>
-                 <div className="container-fluid">
-                   <div className="row">
+                <div className="container-fluid">
+                    <div className="row ">
                         <div className="col-md-2 col-sm-2">                            
                         </div>
                         <div className="col-md-8 col-sm-8">
@@ -74,6 +75,7 @@ class Torneos extends Component {
                         </div>
                     </div>
                 </div>  
+                
             </div>
         )
     }

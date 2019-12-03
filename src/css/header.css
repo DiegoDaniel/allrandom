@@ -49,6 +49,19 @@ button:focus {
   cursor: pointer!important;
 }
 
+.nickNameForm{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: orangered;
+
+}
+.nickNameForm:focus,.nickNameForm:active {
+  outline: orangered !important;
+  box-shadow: orangered;
+  
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
   .fixed-top{
